@@ -3,16 +3,13 @@ import React from "react";
 import { SectionHeading } from "#/SectionHeading";
 import { PricingCard } from "#/cards";
 
-export function PricingSection({
-  title,
-  description,
-  badge,
-  paketi,
-  ...rest
-}) {
+export function PricingSection({ title, description, badge, paketi, ...rest }) {
   const [tenure, setTenure] = React.useState("yearly");
   return (
-    <section className="bg-base-100 dark:bg-base-900 pt-24" {...rest}>
+    <section
+      className="bg-base-100 dark:bg-base-900 pt-12 md:pt-24 lg:pt-24"
+      {...rest}
+    >
       <div className="container px-4 mx-auto">
         <SectionHeading
           align="center"

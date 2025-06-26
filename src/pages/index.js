@@ -97,12 +97,22 @@ export default function Home() {
         title="Da li ste spremni da podnignete Vaš brend na sljedeći nivo?"
         description="Od Vaše vizije, preko prve skice, do vrha Google pretrage - zajedno stvaramo web priču koja traje."
         features={features}
+        badge={{
+          leading: true,
+          icon: "tabler:briefcase-2",
+          label: "USLUGE",
+        }}
         cmsLabel="Ukoliko imate omiljenu CMS platformu, ja ću se prilagoditi Vašem izboru da bi Vi mogli lakše da ažurirate sajt."
         cms={cms}
       />
       <PortfolioSection
         id="portfolio"
         title="Moj rad"
+        badge={{
+          leading: true,
+          icon: "tabler:comet",
+          label: "PORTFOLIO",
+        }}
         description="Pogledajte neke od sajtova na kojima sam radila."
         items={portfolio}
       />

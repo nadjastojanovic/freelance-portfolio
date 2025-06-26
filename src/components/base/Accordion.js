@@ -23,7 +23,7 @@ export function Accordion({ items = [] }) {
               <RAccordion.Trigger
                 className={cn(
                   "group flex flex-1 cursor-pointer items-center justify-between leading-none outline-none",
-                  "text-2xl text-title h-20 hover:text-muted font-normal font-display"
+                  "text-lg md:text-xl lg:text-2xl text-title h-20 hover:text-muted font-normal font-display"
                 )}
               >
                 {item.title}

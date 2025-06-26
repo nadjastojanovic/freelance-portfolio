@@ -12,7 +12,10 @@ export function TestimonialSection({
   ...rest
 }) {
   return (
-    <section className="bg-base-100 dark:bg-base-900 py-24" {...rest}>
+    <section
+      className="bg-base-100 dark:bg-base-900 py-12 md:py-24 lg:py-24"
+      {...rest}
+    >
       <div className="container px-4 mx-auto">
         <SectionHeading
           align="center"

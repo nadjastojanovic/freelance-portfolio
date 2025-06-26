@@ -17,10 +17,10 @@ export function HeroSection({
         <div className="flex flex-col justify-center items-center min-h-screen">
           <div className="flex flex-col justify-center items-center gap-4 text-center max-w-3xl mx-auto mt-32 pb-12">
             <Badge {...badge} />
-            <h1 className="text-6xl font-display font-semibold title-gradient">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-display font-semibold title-gradient">
               {title}
             </h1>
-            <p className="text-xl">{description}</p>
+            <p className="text-base md:text-lg lg:text-xl">{description}</p>
             {buttons.length > 0 && (
               <div className="flex justify-center items-center gap-4 mt-8">
                 {buttons.map((button, index) => (

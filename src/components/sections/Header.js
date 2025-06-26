@@ -49,10 +49,13 @@ export function Header({ logo, links, buttons, social, className, ...rest }) {
           </ul>
         </div>
         <div className="flex gap-2 ml-auto">
+          <div className="hidden lg:flex">
+            <SocialLinks links={social} />
+          </div>
           {buttons.map((button, index) => (
             <Button key={index} {...button} />
           ))}
-          <SocialLinks links={social} />
+
           <ThemeSwitch />
         </div>
         <Button
