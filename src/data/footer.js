@@ -8,19 +8,17 @@ export const footer = {
     {
       icon: "tabler:mail",
       url: "mailto:info@nadjastojanovic.dev",
-    },
-    {
-      icon: "tabler:brand-linkedin",
-      url: "https://www.linkedin.com/in/nada-stojanovic/",
+      color: "white",
     },
     {
       icon: "tabler:brand-x",
       url: "https://x.com/nadjadev",
+      color: "white",
     },
     {
       icon: "tabler:brand-instagram",
       url: "https://instagram.com/nadja.dev",
+      color: "white",
     },
-    
   ],
 };

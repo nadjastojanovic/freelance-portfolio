@@ -1,17 +1,22 @@
 export const paketiOdrzavanja = [
   {
-    title: "Samo-vođeno ažuriranje",
-    description: "U svaki paket je uključena obuka za rad u CMS-u. Nakon što prepišemo domen i hosting na vas, sami možete ažurirati sadržaj i upravljati sajtom. Mogu vam pomoći pri inicijalnoj kupovini domena i podešavanju hostinga — zatim ste potpuno nezavisni.",
-    icon: "tabler:user",
-  },
-  {
     title: "Mjesečni retainer",
-    description: "Za fiksnu mjesečnu naknadu preuzimam brigu o svemu: plaćanje domena i hostinga, hitne popravke, optimizacija performansi i SEO, kao i manje izmjene po potrebi. Prepustite meni brigu o detaljima, dok je vaš sajt uvijek ažuran, brz i siguran.",
+    description:
+      "Za fiksnu mjesečnu naknadu prepustite meni brigu o detaljima: domen i hosting, hitne popravke, optimizacija, kao i manje izmjene po potrebi.",
     icon: "tabler:beach",
   },
+
+  {
+    title: "Samo-vođeno ažuriranje",
+    description:
+      "Ukoliko želite sami da ažurirate sajt, ja ću uspostaviti jednostavan CMS koji će Vam dozvoliti da sami ažurirate sajt i obučiti Vas.",
+    icon: "tabler:user",
+  },
+
   {
     title: "Ad-hoc podrška po satu",
-    description: "Ako vam treba pomoć van standardnog mjesečnog paketa — novi feature, hitna intervencija ili dodatne izmjene — možete me angažovati po satu. Jednostavno pošaljite zahtjev, dogovorimo obim i satnicu, i riješimo problem brzo i efikasno.",
+    description:
+      "Ako Vam treba pomoć van standardnog mjesečnog paketa — nova funkcionalnost, hitna intervencija ili veće izmjene — možete me angažovati po satu.",
     icon: "tabler:tool",
   },
 ];

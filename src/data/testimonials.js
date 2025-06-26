@@ -1,23 +1,23 @@
 export const testimonials = [
   {
-    name: "John Doe",
-    title: "CEO of  a Company",
-    avatar: "https://i.pravatar.cc/150?img=1",
+    name: "Charles Turner",
+    title: "www.charlesturner.cz",
+    avatar: "/avatar-1.png",
     testimonial:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur expedita, ipsam nobis blanditiis provident ducimus aut",
+      "Nađa je uspjela da pretoči moj stil rada i pristup učenju u jednostavan, ali efektan sajt. Sve informacije su jasno istaknute, a učenici me sada češće kontaktiraju zahvaljujući sajtu.",
   },
   {
-    name: "Jane Doe",
-    title: "CTO of a Company",
-    avatar: "https://i.pravatar.cc/150?img=2",
+    name: "Anja Peković",
+    title: "www.secernapasta.me",
+    avatar: "/avatar-2.png",
     testimonial:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur expedita, ipsam nobis blanditiis provident ducimus aut, velit facere fugit praesentium, necessitatibus voluptatem consequuntur amet ratione? Sint distinctio quod non quae?",
+      "Nađa je skroz razumjela estetiku našeg brenda. Sajt izgleda moderno, pregledno i kupci nam stalno govore kako je lako naći informacije o pastama. Sve je bilo brzo, jasno i profesionalno!”",
   },
   {
-    name: "John Smith",
-    title: "COO of a Company",
-    avatar: "https://i.pravatar.cc/150?img=3",
+    name: "Marija Sekulić",
+    title: "www.secernapasta.me",
+    avatar: "/avatar-3.png",
     testimonial:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur expedita, ipsam nobis blanditiis provident ducimus aut, velit facere fugit praesentium, necessitatibus voluptatem consequuntur amet ratione? Sint distinctio quod non quae?",
+      "Od prvog sastanka do finalne verzije sajta — rad sa Nađom je bio fantastičan. Pomogla nam je da proširimo online prisustvo brenda kako i dolikuje.”",
   },
 ];

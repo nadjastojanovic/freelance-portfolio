@@ -25,7 +25,7 @@ export function LargeFeatureSection({
                 <FeatureCard
                   key={index}
                   {...item}
-                  className="p-0 bg-transparent"
+                  className="p-0 bg-transparent mb-5"
                   iconClass="size-8 p-1"
                 />
               ))}

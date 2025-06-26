@@ -2,19 +2,16 @@ export const paketi = [
   {
     icon: "tabler:rocket",
     name: "Start paket",
-    korisnik: "preduzeća kojima treba brza online prezentacija",
+    korisnik: "Idealan za preduzeća kojima treba brza online prezentacija.",
     value: {
       yearly: 100,
     },
-    features: [
-      "Elegantna landing stranica",
-      "Dostava kroz 3 dana",
-    ],
+    features: ["Elegantna landing stranica", "Dostava kroz 3 dana"],
   },
   {
     icon: "tabler:chart-area-line",
     name: "Info paket",
-    korisnik: "preduzeća koja žele da istaknu svoje usluge",
+    korisnik: "Idealan za preduzeća koja žele da istaknu svoje usluge.",
     value: {
       yearly: 250,
     },
@@ -27,7 +24,7 @@ export const paketi = [
   {
     icon: "tabler:infinity",
     name: "Pro paket",
-    korisnik: "preduzeća kojima trebaju napredne funkcionalnosti",
+    korisnik: "Idealan za preduzeća kojima trebaju napredne funkcionalnosti.",
     value: {
       yearly: 800,
     },

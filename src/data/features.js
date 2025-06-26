@@ -1,32 +1,38 @@
 export const features = [
   {
     title: "Dizajn & prototip",
-    description: "Razvijam jedinstven vizuelni identitet i interaktivan Figma, radi povratnih informacija čak i prije početka izrade sajta.",
+    description:
+      "Razvijam jedinstven vizuelni identitet i interaktivan Figma prototip, radi povratnih informacija prije početka izrade sajta.",
     icon: "tabler:palette",
   },
   {
     title: "Izrada sajta",
-    description: "Kreiram markantne, responzivne i brze sajtove koristeći moderne tehnologije prilagođene vašim potrebama.",
+    description:
+      "Kreiram elegantne, responzivne i brze sajtove koristeći moderne tehnologije prilagođene Vašim potrebama.",
     icon: "tabler:code",
   },
   {
     title: "Lansiranje",
-    description: "Pomažem vam pri kupovini domena i podešavanja hosting okruženja, tako da vaš sajt bude vidljiv i dostupan korisnicima.",
+    description:
+      "Pomažem Vam pri kupovini domena i podešavanja hostinga, tako da Vaš sajt uvijek bude vidljiv i dostupan korisnicima.",
     icon: "tabler:rocket",
   },
   {
     title: "Kontinuirana podrška",
-    description: "Pružam paket održavanja ukoliko želite da prepustite redovno ažuriranje i brzo rješavanje svih tehničke problema meni.",
+    description:
+      "Pružam paket održavanja ukoliko želite da prepustite redovno ažuriranje, manje izmjene i sve tehničke probleme meni.",
     icon: "tabler:headset",
   },
   {
     title: "Obuka za upravljanje sajtom",
-    description: "Pri kraju naše saradnje, učim vas da lako dodajete ili meijenjate sadržaj, slike i proizvode na izabranoj CMS platformi.",
+    description:
+      "Ukoliko želite da sami održavate sajt, uspostaviću jednostavan CMS i naučiću Vas kako da mijenjate sadržaj Vašeg sajta.",
     icon: "tabler:backpack",
   },
   {
     title: "SEO optimizacija",
-    description: "Pratim najbolje SEO prakse za strukturu, brzinu i sadržaj sajta, da bi se bolje rangirao u pretragama i privukao više posjetilaca.",
+    description:
+      "Pratim najbolje SEO prakse da bi se Vaš sajt bolje rangirao u pretragama i privukao više posjetilaca.",
     icon: "tabler:search",
   },
 ];

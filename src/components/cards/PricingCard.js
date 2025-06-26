@@ -23,7 +23,7 @@ export const PricingCard = ({
         <Icon icon={icon} className="size-5" />
         <h5 className="text-title font-medium text-xl">{name}</h5>
       </div>
-      <p className="my-2"><span className="font-bold">Idealan za </span>{korisnik}</p>
+      <p className="my-2">{korisnik}</p>
       <div className="w-full border-b border-base my-6"></div>
       <div className="inline-flex gap-1 items-baseline">
         <h2 className="text-5xl font-semibold leading-none text-title">

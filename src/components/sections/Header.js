@@ -4,8 +4,9 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "#/base";
 import { ThemeSwitch } from "#/ThemeSwitch";
+import { SocialLinks } from "../SocialLinks";
 
-export function Header({ logo, links, buttons, className, ...rest }) {
+export function Header({ logo, links, buttons, social, className, ...rest }) {
   const [open, setOpen] = useState(false);
   return (
     <header className="fixed w-full bg-base-50/50 dark:bg-base-950/50 backdrop-blur-xl z-10">
@@ -51,6 +52,7 @@ export function Header({ logo, links, buttons, className, ...rest }) {
           {buttons.map((button, index) => (
             <Button key={index} {...button} />
           ))}
+          <SocialLinks links={social} />
           <ThemeSwitch />
         </div>
         <Button

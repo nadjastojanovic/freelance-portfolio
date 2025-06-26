@@ -19,7 +19,7 @@ export function Footer({ copyright, logo, links, social, ...rest }) {
           />
           <SocialLinks links={social} />
         </div>
-        
+
         <div className="border-t border-base py-4 text-center flex justify-between">
           <p className="text-sm">&copy; {copyright}</p>
         </div>

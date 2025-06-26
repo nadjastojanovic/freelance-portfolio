@@ -9,7 +9,7 @@ export const SocialLinks = ({ links, className }) => {
           key={index}
           icon={link.icon}
           href={link.url}
-          color="white"
+          color={link.color}
           target="_blank"
           className="p-3"
         />

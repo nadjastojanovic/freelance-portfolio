@@ -31,8 +31,25 @@ export const header = {
       label: "Upit za nove klijente",
       href: "https://form.typeform.com/to/ofVVdkQm",
       color: "dark",
-      target:"_blank", 
+      target: "_blank",
       size: "small",
+    },
+  ],
+  social: [
+    {
+      icon: "tabler:mail",
+      url: "mailto:info@nadjastojanovic.dev",
+      color: "link",
+    },
+    {
+      icon: "tabler:brand-x",
+      url: "https://x.com/nadjadev",
+      color: "link",
+    },
+    {
+      icon: "tabler:brand-instagram",
+      url: "https://instagram.com/nadja.dev",
+      color: "link",
     },
   ],
 };

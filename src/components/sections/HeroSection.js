@@ -8,6 +8,7 @@ export function HeroSection({
   description,
   buttons,
   image,
+  url,
   ...rest
 }) {
   return (
@@ -28,11 +29,26 @@ export function HeroSection({
               </div>
             )}
           </div>
-          <div>
+          <div className="relative hidden sm:block group">
+            <a href={url} target="_blank">
+              <img
+                src={image.src}
+                alt={image.alt}
+                className={cn(
+                  "max-w-[900px] w-full h-auto mx-auto transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer",
+                  image.className
+                )}
+              />
+            </a>
+          </div>
+          <div className="relative block sm:hidden">
             <img
               src={image.src}
               alt={image.alt}
-              className={cn("w-full h-auto", image.className)}
+              className={cn(
+                "max-w-[900px] w-full h-auto mx-auto",
+                image.className
+              )}
             />
           </div>
         </div>

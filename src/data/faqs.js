@@ -1,7 +1,7 @@
 export const faqs = [
   {
     title: "Koliko košta web sajt i dizajn?",
-    body: "Cijena izrade web sajta zavisi od njegove kompleksnosti i funkcionalnosti - osnovni jednostranični sajt počinje od 100€, dok cijena raste u zavisnosti od dodatnih opcija i zahtjeva. Popuni upitnik za nove klijente i dobićeš detaljne informacije.",
+    body: "Cijena izrade web sajta zavisi od njegove kompleksnosti i funkcionalnosti - osnovni jednostranični sajt počinje od 100€, dok cijena raste u zavisnosti od dodatnih opcija i zahtjeva. Popunite upitnik za nove klijente i dobićete detaljne informacije.",
   },
   {
     title: "Koliko trajte izrada sajta?",
@@ -9,10 +9,10 @@ export const faqs = [
   },
   {
     title: "Kako se formira cijena za web sajt?",
-    body: "Cijena zavisi od vrste sajta i funkcionalnosti - statični sajt, višejezični, web shop, booking sistem, portfolio ili specijalizovane opcije. Popuni upitnik za nove klijente i zajedno ćemo pronaći najbolje rješenje za tvoje preduzeće.",
+    body: "Cijena zavisi od vrste sajta i funkcionalnosti - statični sajt, višejezični, web shop, booking sistem, portfolio ili specijalizovane opcije. Popunite upitnik za nove klijente i zajedno ćemo pronaći najbolje rješenje za Vaše preduzeće.",
   },
   {
     title: "Kako mogu da započnem saradnju?",
-    body: "Popuni upitnik za nove klijente i javi mi svoje potrebe kako bih ti poslala personalizovanu ponudu. Nakon rezervacije termina, potrebno je izvršiti uplatu, nakon čega započinjem rad na projektu. Svaki korak je prilagođen tvojoj viziji i ciljevima. Ako želiš, slobodno me možeš kontaktirati i putem mejla i socijalnih mreža.",
+    body: "Popunite upitnik za nove klijente i javite mi svoje potrebe kako bih Vam poslala personalizovanu ponudu. Nakon inicijalne komunikacije, potrebno je izvršiti uplatu, nakon čega započinjem rad na projektu. Svaki korak je prilagođen Vašoj viziji i ciljevima. Ako želite, slobodno me možete kontaktirati i putem mejla i socijalnih mreža.",
   },
 ];

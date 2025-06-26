@@ -29,9 +29,10 @@ export default function Home() {
     <>
       <Head>
         <title>Profesionalna izrada sajtova u Crnoj Gori</title>
-        `<meta
+        `
+        <meta
           name="description"
-          content="Tražite moderan i responzivan sajt za vaš brend? Pogledajte moj rad i odaberite svoj paket."
+          content="Tražite moderan i responzivan sajt za Vaš brend? Pogledajte moj rad i odaberite Vaš paket."
         />
         <meta
           name="keywords"
@@ -39,37 +40,47 @@ export default function Home() {
         />
         <meta name="author" content="Nađa Stojanović" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Profesionalna izrada sajtova u Crnoj Gori" />
-        <meta property="og:description" content="Kreiram moderne, responzivne sajtove za mala preduzeća u Crnoj Gori." />
-        <meta property="og:image" content="https://nadjastojanovic.dev/og-image.png" />
+        <meta
+          property="og:title"
+          content="Profesionalna izrada sajtova u Crnoj Gori"
+        />
+        <meta
+          property="og:description"
+          content="Kreiram moderne, responzivne sajtove za mala preduzeća u Crnoj Gori."
+        />
+        <meta
+          property="og:image"
+          content="https://nadjastojanovic.dev/og-image.png"
+        />
         <meta property="og:url" content="https://nadjastojanovic.dev/" />
         <meta property="og:type" content="website" />
       </Head>
       <Header
         logo={header.logo}
         links={header.links}
+        social={header.social}
         buttons={header.buttons}
       />
       <HeroSection
         id="home"
         badge={{
-          href: "#portfolio",
+          href: "#paketi",
           icon: "tabler:arrow-right",
           label: "Digitalna rješenja za mala preduzeća",
         }}
         title="Vaš brend i vaša priča, sada uz sajt koji ostavlja utisak!"
-        description="Kroz blisku saradnju oblikujemo modernu, responzivnu stranicu koja govori srcu vaših mušterija i gradi povjerenje."
+        description="Kroz blisku saradnju oblikujemo modernu, responzivnu stranicu koja govori srcu Vaših mušterija i gradi povjerenje."
         buttons={[
           {
-            href: "#paketi",
-            label: "Dostupni paketi",
+            href: "#portfolio",
+            label: "Portfolio",
             color: "light",
             variant: "link",
           },
           {
             href: "https://form.typeform.com/to/ofVVdkQm",
             label: "Upit za nove klijente",
-            target:"_blank", 
+            target: "_blank",
             color: "dark",
             icon: "tabler:arrow-right",
           },
@@ -79,13 +90,14 @@ export default function Home() {
           alt: "Dizajn proces na laptopu",
           className: "w-full h-auto",
         }}
+        url="https://www.secernapasta.me"
       />
       <FeatureSection
         id="features"
-        title="Da li ste spremni da podnignete svoj brend na sljedeći nivo?"
-        description="Od vaše vizije, preko prve skice, do vrha Google pretrage - zajedno stvaramo web priču koja traje."
+        title="Da li ste spremni da podnignete Vaš brend na sljedeći nivo?"
+        description="Od Vaše vizije, preko prve skice, do vrha Google pretrage - zajedno stvaramo web priču koja traje."
         features={features}
-        cmsLabel="Ukoliko imate omiljenu CMS platformu, ja ću se prilagoditi vašem izboru da bi vi mogli lakše da ažurirate sajt."
+        cmsLabel="Ukoliko imate omiljenu CMS platformu, ja ću se prilagoditi Vašem izboru da bi Vi mogli lakše da ažurirate sajt."
         cms={cms}
       />
       <PortfolioSection
@@ -96,8 +108,8 @@ export default function Home() {
       />
       <PricingSection
         id="paketi"
-        title="Odaberite svoj paket"
-        description="Nudim različite planove prilagođene vašim potrebama i budžetu."
+        title="Odaberite Vaš paket"
+        description="Nudim različite planove prilagođene Vašim potrebama i budžetu."
         badge={{
           leading: true,
           icon: "tabler:package",
@@ -108,7 +120,7 @@ export default function Home() {
       <LargeFeatureSection
         reverse={true}
         title="Održavanje i podrška"
-        description="Ne dozvolite da vaše mušterije odu zbog nedostupnog ili sporog sajta."
+        description="Ne dozvolite da Vaše mušterije odu zbog nedostupnog ili sporog sajta."
         list={paketiOdrzavanja}
         image={{
           src: "./phone-mockup.png",
@@ -134,7 +146,7 @@ export default function Home() {
         description="Pronađite odgovore na neka od pitanja sa kojim se često susrećem. Ako imate još neko pitanje, slobodno me kontaktirajte."
         buttons={[
           {
-            label: "Javi se",
+            label: "Javite se putem mejla",
             href: "mailto:info@nadjastojanovic.dev",
             color: "primary",
             target: "_blank",
@@ -146,8 +158,15 @@ export default function Home() {
       />
       <CtaSection
         title="Šta čekate?"
-        description="Zamislite sajt koji savršeno odražava vaš brend, privlači prave posjetioce i pretvara ih u lojalne mušterije. Popunite upitnik za nove klijente sada i pretvorimo vašu viziju u realnost!"
-        buttons={[{ label: "Upit za nove klijente", href: "https://form.typeform.com/to/ofVVdkQm", target:"_blank", color: "dark" }]}
+        description="Zamislite sajt koji savršeno odražava Vaš brend, privlači prave posjetioce i pretvara ih u lojalne mušterije. Popunite upitnik za nove klijente sada i pretvorimo Vašu viziju u realnost!"
+        buttons={[
+          {
+            label: "Upit za nove klijente",
+            href: "https://form.typeform.com/to/ofVVdkQm",
+            target: "_blank",
+            color: "dark",
+          },
+        ]}
       />
       <Footer
         id="footer"
