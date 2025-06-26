@@ -28,15 +28,20 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Profesionalna izrada sajtova u Crnoj Gori</title>
-        `
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>
+          Profesionalna izrada sajtova u Crnoj Gori | Nađa Stojanović
+        </title>
+
         <meta
           name="description"
-          content="Tražite moderan i responzivan sajt za Vaš brend? Pogledajte moj rad i odaberite Vaš paket."
+          content="Nudim kompletna web rješenja — od dizajna i razvoja do hostinga i održavanja. Specijalizovana sam za izradu modernih, responzivnih sajtova koji su brzi, sigurni i optimizovani za sve uređaje. Pomozi svom brendu da zasija online."
         />
         <meta
           name="keywords"
-          content="izrada sajtova, web sajt, web dizajn, freelance web developer, freelance web design, Podgorica, Crna Gora, e-commerce, portfolio"
+          content="izrada sajtova Crna Gora, web sajt, web dizajn, freelance web developer, freelance web design, Podgorica, Crna Gora, e-commerce, portfolio"
         />
         <meta name="author" content="Nađa Stojanović" />
         <meta name="robots" content="index, follow" />
