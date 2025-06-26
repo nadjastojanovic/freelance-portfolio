@@ -1,0 +1,9 @@
+export { cms } from "./cms";
+export { features } from "./features";
+export { faqs } from "./faqs";
+export { testimonials } from "./testimonials";
+export { paketi } from "./paketi";
+export { portfolio } from "./portfolio";
+export { paketiOdrzavanja } from "./paketiOdrzavanja";
+export { header } from "./header";
+export { footer } from "./footer";
