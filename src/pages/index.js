@@ -47,7 +47,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           property="og:title"
-          content="Profesionalna izrada sajtova u Crnoj Gori"
+          content="Profesionalna izrada sajtova u Crnoj Gori | Nađa Stojanović"
         />
         <meta
           property="og:description"
