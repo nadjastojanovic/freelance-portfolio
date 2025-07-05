@@ -16,7 +16,7 @@ export function TestimonialSection({
       className="bg-base-100 dark:bg-base-900 py-12 md:py-24 lg:py-24"
       {...rest}
     >
-      <div className="px-48 mx-auto">
+      <div className="px-4 md:px-24 lg:px-48 mx-auto">
         <SectionHeading
           align="center"
           title={title}
