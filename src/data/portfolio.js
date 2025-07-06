@@ -14,6 +14,6 @@ export const portfolio = [
     description:
       "Višejezični sajt za privatnog nastavnika engleskog jezika sa sekcijama o iskustvu i ponudama, kontakt ikonama, responsivnom navigacijom i dropdown jezičkim mjenjačem.",
     image: "/portfolio-1.png",
-    url: "https://charlesturner.netlify.app",
+    url: "https://charlesturner.cz",
   },
 ];
