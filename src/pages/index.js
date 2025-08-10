@@ -90,11 +90,32 @@ export default function Home() {
               name: "Dizajn i izrada sajtova | Nađa Stojanović",
               url: "https://nadjastojanovic.dev",
               telephone: "+38268518800",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Bulevar Revolucije",
+                addressLocality: "Podgorica",
+                postalCode: "81000",
+                addressCountry: "ME",
+              },
               geo: {
                 "@type": "GeoCoordinates",
                 latitude: 42.441,
                 longitude: 19.2627,
               },
+              openingHoursSpecification: [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                  ],
+                  opens: "09:00",
+                  closes: "17:00",
+                },
+              ],
               sameAs: [
                 "https://www.instagram.com/nadja.dev",
                 "https://x.com/nadjadev",
