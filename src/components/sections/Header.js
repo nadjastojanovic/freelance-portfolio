@@ -33,9 +33,8 @@ export function Header({ logo, links, buttons, social, className, ...rest }) {
         >
           <ul className="font-medium flex flex-col gap-2 p-4 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             {links.map((link, index) => (
-              <li>
+              <li key={index}>
                 <a
-                  key={index}
                   href={link.href}
                   className={
                     open
