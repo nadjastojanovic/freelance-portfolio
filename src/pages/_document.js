@@ -2,10 +2,8 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="sr">
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Html lang="sr-ME">
+      <Head></Head>
       <body>
         <Main />
         <NextScript />

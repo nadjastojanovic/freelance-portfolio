@@ -33,19 +33,27 @@ export default function Home() {
 
         <title>Dizajn i izrada sajtova | Nađa Stojanović</title>
 
+        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+
         <meta
           name="description"
-          content="Nudim kompletna web rješenja — od dizajna i razvoja do hostinga i održavanja. Specijalizovana sam za izradu modernih, responzivnih sajtova koji su brzi, sigurni i optimizovani za sve uređaje. Pomozi svom brendu da zasija online."
+          content="Profesionalna izrada modernih sajtova i kompletna web rješenja — od dizajna do održavanja. Pomozite vašem biznisu da zasija online."
         />
         <meta
           name="keywords"
-          content="izrada sajtova Crna Gora, web sajt, web dizajn, freelance web developer, freelance web design, Podgorica, Crna Gora, e-commerce, portfolio"
+          content="izrada sajtova Crna Gora, biznis, web sajt, web dizajn, freelance web developer, freelance web design, Podgorica, Crna Gora, e-commerce, portfolio"
         />
+        <link rel="canonical" href="https://nadjastojanovic.dev/" />
         <meta name="author" content="Nađa Stojanović" />
         <meta name="robots" content="index, follow" />
         <meta
           property="og:title"
-          content="Profesionalna izrada sajtova u Crnoj Gori | Nađa Stojanović"
+          content="Izrada sajtova u Crnoj Gori | Nađa Stojanović"
         />
         <meta
           property="og:description"
@@ -57,6 +65,43 @@ export default function Home() {
         />
         <meta property="og:url" content="https://nadjastojanovic.dev/" />
         <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Izrada sajtova u Crnoj Gori | Nađa Stojanović"
+        />
+        <meta
+          name="twitter:description"
+          content="Kreiram moderne, responzivne sajtove za mala preduzeća u Crnoj Gori."
+        />
+        <meta
+          name="twitter:image"
+          content="https://nadjastojanovic.dev/og-image.png"
+        />
+        <meta name="twitter:site" content="@nadja.dev" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "Dizajn i izrada sajtova | Nađa Stojanović",
+              url: "https://nadjastojanovic.dev",
+              telephone: "+38268518800",
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 42.441,
+                longitude: 19.2627,
+              },
+              sameAs: [
+                "https://www.instagram.com/nadja.dev",
+                "https://x.com/nadjadev",
+              ],
+            }),
+          }}
+        />
       </Head>
       <Header
         logo={header.logo}
