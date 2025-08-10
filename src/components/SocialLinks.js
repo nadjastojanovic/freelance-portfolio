@@ -12,6 +12,7 @@ export const SocialLinks = ({ links, className }) => {
           color={link.color}
           target="_blank"
           className="p-3"
+          aria-label={link.label}
         />
       ))}
     </div>

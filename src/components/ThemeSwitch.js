@@ -8,6 +8,11 @@ export const ThemeSwitch = () => {
     <Button
       icon={theme === "dark" ? "tabler:moon" : "tabler:sun"}
       color="transparent"
+      aria-label={
+        theme === "dark"
+          ? "Promijenite dezen sajta u svijetlo"
+          : "Promijenite dezen sajta u tamno"
+      }
       className="p-1"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     />

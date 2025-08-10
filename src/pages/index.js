@@ -28,12 +28,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>
-          Profesionalna izrada sajtova u Crnoj Gori | Nađa Stojanović
-        </title>
+        <title>Dizajn i izrada sajtova | Nađa Stojanović</title>
 
         <meta
           name="description"
@@ -71,7 +69,7 @@ export default function Home() {
         badge={{
           href: "#paketi",
           icon: "tabler:arrow-right",
-          label: "Digitalna rješenja za mala preduzeća",
+          label: "Dizajn i izrada sajtova za mala preduzeća",
         }}
         title="Vaš brend i vaša priča, sada uz sajt koji ostavlja utisak!"
         description="Kroz blisku saradnju oblikujemo modernu, responzivnu stranicu koja govori srcu Vaših mušterija i gradi povjerenje."

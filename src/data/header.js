@@ -40,16 +40,19 @@ export const header = {
       icon: "tabler:mail",
       url: "mailto:info@nadjastojanovic.dev",
       color: "link",
+      label: "Pošaljite email na info@nadjastojanovic.dev",
     },
     {
       icon: "tabler:brand-x",
       url: "https://x.com/nadjadev",
       color: "link",
+      label: "Otvorite Twitter/X profil Nađe Stojanović",
     },
     {
       icon: "tabler:brand-instagram",
       url: "https://instagram.com/nadja.dev",
       color: "link",
+      label: "Otvorite Instagram profil Nađe Stojanović",
     },
   ],
 };
