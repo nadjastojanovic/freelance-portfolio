@@ -159,7 +159,7 @@ export default function Home() {
           alt: "Dizajn proces na laptopu",
           className: "w-full h-auto",
         }}
-        url="https://www.secernapasta.me"
+        url="https://konobakula.me"
       />
       <FeatureSection
         id="features"
